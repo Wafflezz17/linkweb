@@ -1,0 +1,40 @@
+<!--
+<a href="https://youtu.be/15MaSayc28c?si=uUbw_OI1_ISXEzwZ&t=351" target="_blank" onclick="downloadFile()">click me</a>
+
+<script>
+function downloadFromURL() {
+    let fileURL = "https://drive.google.com/file/d/1yjsAQKEknoandCkLVYBhTNMh6xqQcQyz/view?usp=drive_link"; // Change this to your file URL
+    let a = document.createElement("a");
+    a.href = fileURL;
+    a.download = "sample.txt"; // Custom file name
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+</script>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="0; url=https://youtu.be/15MaSayc28c?si=uUbw_OI1_ISXEzwZ&t=351">
+    <title>Redirecting...</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+  window.onload = function() {
+      let fileURL = "file.enc"; // Path to the file inside your assets folder
+      let a = document.createElement("a");
+      a.href = fileURL;
+      a.download = "file.enc"; // Set the filename
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+  };
+</script>   
+
+
